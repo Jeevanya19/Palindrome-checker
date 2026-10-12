@@ -1,0 +1,68 @@
+# Day 12 - Palindrome Checker
+
+## Description
+
+This project is a simple Python program that checks whether a word or sentence is a palindrome.
+
+A palindrome is a word or sentence that reads the same forward and backward.
+
+## Objective
+
+- Practice string manipulation.
+- Learn string slicing.
+- Understand string comparison.
+- Handle spaces and capitalization.
+
+## Technologies Used
+
+- Python 3
+
+## How It Works
+
+1. Accept a word or sentence from the user.
+2. Convert the input into lowercase.
+3. Remove spaces from the input.
+4. Reverse the cleaned text using string slicing.
+5. Compare the original cleaned text with the reversed text.
+6. Display whether the input is a palindrome.
+
+## Sample Outputs
+
+### Valid Palindrome
+
+Input: `Madam`
+
+Output: `It is a palindrome!`
+
+### Valid Sentence
+
+Input: `Never odd or even`
+
+Output: `It is a palindrome!`
+
+### Invalid Palindrome
+
+Input: `Hello`
+
+Output: `It is not a palindrome.`
+
+## How to Run
+
+1. Install Python 3.
+2. Download or clone this repository.
+3. Open a terminal in the project folder.
+4. Run the following command:
+
+```bash
+python palindrome_checker.py
+```
+
+## Concepts Learned
+
+- `input()` for accepting user input.
+- `lower()` for converting text to lowercase.
+- `replace()` for removing spaces.
+- `[::-1]` for reversing a string.
+- `if-else` statements for comparison.
+
+##
